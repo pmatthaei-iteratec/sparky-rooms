@@ -1,0 +1,1 @@
+Visit the [Wiki](https://iteragit.iteratec.de/sparkfun/sparky-rooms/-/wikis/home) for more information: 
