@@ -23,6 +23,12 @@ Holds training labels of this model. Just the person label in this case.
 
 Training notebook designed to run on a GCP AI Platform notebook instance.
 
+## Folders
+
+**/docs**
+
+Contains documentations around TensorflowLite and Microcontrollers
+
 ## Wiki Entries
 
 [1. Training](https://iteragit.iteratec.de/sparkfun/sparky-rooms/-/wikis/Google%20Cloud%20Training)
