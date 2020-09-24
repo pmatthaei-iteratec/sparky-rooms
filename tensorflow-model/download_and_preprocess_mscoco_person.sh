@@ -53,15 +53,14 @@ function download_and_unzip() {
     echo "Downloading ${FILENAME} to $(pwd)"
     wget -nd -c "${BASE_URL}/${FILENAME}"
   else
-    echo "Skipping download of ${FILENAME}"
+    echo "Already downloaded .zip. Skipping download of ${FILENAME}."
   fi
   
-  echo ${FILENAME%.*}
   if [ ! -d ${FILENAME%.*} ]; then
     echo "Unzipping ${FILENAME}"
     ${UNZIP} ${FILENAME}
   else
-    echo "Skipping unzipping of ${FILENAME}"
+    echo "Already unzipped ${FILENAME}. Skipping unzipping."
   fi
 
 }
