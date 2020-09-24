@@ -55,8 +55,15 @@ function download_and_unzip() {
   else
     echo "Skipping download of ${FILENAME}"
   fi
-  echo "Unzipping ${FILENAME}"
-  ${UNZIP} ${FILENAME}
+  
+  echo ${FILENAME%.*}
+  if [ ! -d ${FILENAME%.*} ]; then
+    echo "Unzipping ${FILENAME}"
+    ${UNZIP} ${FILENAME}
+  else
+    echo "Skipping unzipping of ${FILENAME}"
+  fi
+
 }
 
 cd ${SCRATCH_DIR}
