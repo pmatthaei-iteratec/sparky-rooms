@@ -5,6 +5,10 @@
 The model should detect how many people are residing in a meeting room and retrieve their bounding boxes from a single greyscale image input.
 Transforming the image into bird eye view via [OpenCV](https://opencv.org/) allows to measure distances between the detected people using the already found bounding boxes.
 
+## Source
+
+This model is based on the [SSD Mobileet V2 FPNLite](https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config) model.
+
 ## Files
 
 **download_and_preprocess_mscoco_person.sh**
