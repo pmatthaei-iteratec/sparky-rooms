@@ -7,3 +7,6 @@ With this data we can determine if a room is empty or filled, if people comply t
 corona restrictions and more.
 
 Visit the [**Wiki**](https://iteragit.iteratec.de/sparkfun/sparky-rooms/-/wikis/home) for more information.
+
+
+This repo is mirrored to [Github](https://github.com/pmatthaei-iteratec/sparky-rooms)
