@@ -1,4 +1,4 @@
-# SparkFun Edge - Person detection with bounding boxes on the edge
+# SparkFun Edge - Person detection on SparkFun Edge
 
 This project aims at deploying a person detection model on a SparkFun Edge board.
 Via the camera included on the board, persons in a meeting room should be counted
